@@ -10,11 +10,13 @@
 		75B00A521B5C5C200083FC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A511B5C5C200083FC5E /* main.m */; };
 		75B00A551B5C5C200083FC5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A541B5C5C200083FC5E /* AppDelegate.m */; };
 		75B00A581B5C5C200083FC5E /* vibgyor_mapview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A561B5C5C200083FC5E /* vibgyor_mapview.xcdatamodeld */; };
-		75B00A5B1B5C5C200083FC5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A5A1B5C5C200083FC5E /* ViewController.m */; };
+		75B00A5B1B5C5C200083FC5E /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A5A1B5C5C200083FC5E /* firstViewController.m */; };
 		75B00A5E1B5C5C200083FC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B00A5C1B5C5C200083FC5E /* Main.storyboard */; };
 		75B00A601B5C5C200083FC5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B00A5F1B5C5C200083FC5E /* Images.xcassets */; };
 		75B00A631B5C5C200083FC5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B00A611B5C5C200083FC5E /* LaunchScreen.xib */; };
 		75B00A6F1B5C5C210083FC5E /* vibgyor_mapviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A6E1B5C5C210083FC5E /* vibgyor_mapviewTests.m */; };
+		75B00A791B5CD64F0083FC5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B00A781B5CD64F0083FC5E /* CoreLocation.framework */; };
+		75B00A7C1B6417F80083FC5E /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B00A7B1B6417F80083FC5E /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,17 @@
 		75B00A531B5C5C200083FC5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75B00A541B5C5C200083FC5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75B00A571B5C5C200083FC5E /* vibgyor_mapview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vibgyor_mapview.xcdatamodel; sourceTree = "<group>"; };
-		75B00A591B5C5C200083FC5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75B00A5A1B5C5C200083FC5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75B00A591B5C5C200083FC5E /* firstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		75B00A5A1B5C5C200083FC5E /* firstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
 		75B00A5D1B5C5C200083FC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75B00A5F1B5C5C200083FC5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75B00A621B5C5C200083FC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		75B00A681B5C5C200083FC5E /* vibgyor_mapviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibgyor_mapviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B00A6D1B5C5C200083FC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B00A6E1B5C5C210083FC5E /* vibgyor_mapviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vibgyor_mapviewTests.m; sourceTree = "<group>"; };
+		75B00A781B5CD64F0083FC5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75B00A7A1B6417F80083FC5E /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		75B00A7B1B6417F80083FC5E /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B00A791B5CD64F0083FC5E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,7 @@
 		75B00A431B5C5C200083FC5E = {
 			isa = PBXGroup;
 			children = (
+				75B00A781B5CD64F0083FC5E /* CoreLocation.framework */,
 				75B00A4E1B5C5C200083FC5E /* vibgyor_mapview */,
 				75B00A6B1B5C5C200083FC5E /* vibgyor_mapviewTests */,
 				75B00A4D1B5C5C200083FC5E /* Products */,
@@ -85,9 +92,11 @@
 			children = (
 				75B00A531B5C5C200083FC5E /* AppDelegate.h */,
 				75B00A541B5C5C200083FC5E /* AppDelegate.m */,
-				75B00A591B5C5C200083FC5E /* ViewController.h */,
-				75B00A5A1B5C5C200083FC5E /* ViewController.m */,
+				75B00A591B5C5C200083FC5E /* firstViewController.h */,
+				75B00A5A1B5C5C200083FC5E /* firstViewController.m */,
 				75B00A5C1B5C5C200083FC5E /* Main.storyboard */,
+				75B00A7A1B6417F80083FC5E /* secondViewController.h */,
+				75B00A7B1B6417F80083FC5E /* secondViewController.m */,
 				75B00A5F1B5C5C200083FC5E /* Images.xcassets */,
 				75B00A611B5C5C200083FC5E /* LaunchScreen.xib */,
 				75B00A561B5C5C200083FC5E /* vibgyor_mapview.xcdatamodeld */,
@@ -224,8 +233,9 @@
 			files = (
 				75B00A581B5C5C200083FC5E /* vibgyor_mapview.xcdatamodeld in Sources */,
 				75B00A551B5C5C200083FC5E /* AppDelegate.m in Sources */,
-				75B00A5B1B5C5C200083FC5E /* ViewController.m in Sources */,
+				75B00A5B1B5C5C200083FC5E /* firstViewController.m in Sources */,
 				75B00A521B5C5C200083FC5E /* main.m in Sources */,
+				75B00A7C1B6417F80083FC5E /* secondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
